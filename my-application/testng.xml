@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium Test Suite">
+    <test name="Selenium Tests">
+        <classes>
+            <!-- Add the fully qualified names of your test classes here -->
+            <class name="tests.SeleniumTest"/>
+        </classes>
+    </test>
+</suite>
