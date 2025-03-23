@@ -14,7 +14,7 @@ public class SeleniumTest {
     public void setUp() {
         // Set the path to the ChromeDriver executable (make sure to download ChromeDriver and set the correct path)
 	System.setProperty("webdriver.http.factory", "jdk-http-client");
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\OneDrive\\Desktop\\Codes\\my-application\\src\\test\\resources\\drivers\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "\"C:\\Users\\Administrator\\Desktop\\Projects\\my-application\\src\\test\\resources\\drivers\\chromedriver.exe\"");
 // Initialize the ChromeDriver instance
         driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
